@@ -1,9 +1,12 @@
 ---
-title: Customize the Favicon
+title: Dase Web First Post
 author: cotes
-date: 2019-08-11 00:34:00 +0800
-categories: [Blogging, Tutorial]
-tags: [favicon]
+date: 2024-10-05T12:54:51.599Z
+categories:
+  - Blogging
+  - Tutorial
+tags:
+  - favicon
 ---
 
 The [favicons](https://www.favicon-generator.org/about/) of [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/) are placed in the directory `assets/img/favicons/`{: .filepath}. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
