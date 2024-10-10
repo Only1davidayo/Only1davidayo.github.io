@@ -150,3 +150,19 @@ tail_includes:
   </div>
   <!-- div.post-tail-wrapper -->
 </article>
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = '{{ page.url | absolute_url }}';  // Your page's canonical URL
+        this.page.identifier = '{{ page.id }}'; // Unique identifier for each page
+    };
+
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://david-ayo.disqus.com/embed.js'; // Your Disqus shortname
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
