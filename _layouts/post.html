@@ -7,14 +7,13 @@ tail_includes:
   - related-posts
   - post-nav
   - comments
-comments: true
 ---
 
 {% include lang.html %}
 
 <article class="px-1">
   <header>
-    <h1 data-toc-skip>TEST</h1>
+    <h1 data-toc-skip>{{ page.title }}</h1>
     {% if page.description %}
       <p class="post-desc fw-light mb-4">{{ page.description }}</p>
     {% endif %}
@@ -126,7 +125,7 @@ comments: true
         {% endfor %}
       </div>
     {% endif %}
-<h2>Hey</h2>
+
     <div
       class="
         post-tail-bottom
@@ -151,7 +150,7 @@ comments: true
   </div>
   <!-- div.post-tail-wrapper -->
 </article>
-<h1>Rest</h1>
+
 <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
